@@ -24,7 +24,8 @@ It provides a RESTful API for managing employee records, including basic Create,
 
 ### 1. Clone the repository
 
-```bash
+bash
+
 git clone https://github.com/your-username/employee-crud-springboot-h2.git
 cd employee-crud-springboot-h2
 
