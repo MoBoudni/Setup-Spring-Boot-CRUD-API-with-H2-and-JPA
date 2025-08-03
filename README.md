@@ -57,9 +57,13 @@ GET	/employee	Returns all employees
 
 net.codejava
 ├── Employee.java          → Entity class
+
 ├── EmployeeRepository.java → Repository interface
+
 ├── EmployeeController.java → REST Controller
+
 └── SpringH2InEmbeddedApplication.java → Main app class
+
 
 ⚙️ Configuration (application.properties)
 
