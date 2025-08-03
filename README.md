@@ -1,12 +1,12 @@
 # employee-crud-springboot-h2
 
-This is a simple CRUD application built with **Spring Boot**, **Spring Data JPA**, and an **embedded H2 database**.  
+This is a simple CRUD application built with "Spring Boot", "Spring Data JPA", and an "embedded H2 database".  
 It provides a RESTful API for managing employee records, including basic Create, Read, Update, and Delete operations.
 
 ## ✅ Features
 
 - REST API for basic employee management
-- Embedded **H2** database (in file mode)
+- Embedded "H2" database (in file mode)
 - Auto table creation via Hibernate (`ddl-auto=update`)
 - Clean project structure with Controller, Repository, Entity
 - Easy to extend and adapt
@@ -48,17 +48,12 @@ GET	/employee	Returns all employees
 
 👉 You can extend this project to support:
 
-POST for creating new employees
-
-PUT for updating existing entries
-
-DELETE for deleting entries
+- POST for creating new employees
+- PUT for updating existing entries
+- DELETE for deleting entries
 
 📂 Project Structure
 
-kotlin
-Kopieren
-Bearbeiten
 net.codejava
 ├── Employee.java          → Entity class
 ├── EmployeeRepository.java → Repository interface
@@ -67,9 +62,6 @@ net.codejava
 
 ⚙️ Configuration (application.properties)
 
-properties
-Kopieren
-Bearbeiten
 spring.datasource.url=jdbc:h2:./employeedb
 spring.datasource.username=sa
 spring.datasource.password=sa123
