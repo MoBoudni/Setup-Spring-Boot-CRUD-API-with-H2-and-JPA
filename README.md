@@ -23,6 +23,7 @@ It provides a RESTful API for managing employee records, including basic Create,
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/your-username/employee-crud-springboot-h2.git
 cd employee-crud-springboot-h2
@@ -54,6 +55,7 @@ PUT for updating existing entries
 DELETE for deleting entries
 
 📂 Project Structure
+
 kotlin
 Kopieren
 Bearbeiten
@@ -62,7 +64,9 @@ net.codejava
 ├── EmployeeRepository.java → Repository interface
 ├── EmployeeController.java → REST Controller
 └── SpringH2InEmbeddedApplication.java → Main app class
+
 ⚙️ Configuration (application.properties)
+
 properties
 Kopieren
 Bearbeiten
@@ -72,6 +76,8 @@ spring.datasource.password=sa123
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
+
 📌 License
+
 This project is provided for educational or demonstration purposes.
 Feel free to fork and adapt it to your needs.
